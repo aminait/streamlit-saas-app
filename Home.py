@@ -15,7 +15,7 @@ st.set_page_config(page_title="SaaS", page_icon=":house", layout="centered", ini
 # Load environment variables
 
 # Display the main title
-st.markdown('# Your SaaS App')
+st.markdown('# SaaS App')
 
 # Initialize the authenticator
 st.session_state['authenticator'] = Authenticate("coolcookiesd267", "keyd3214", 60)
